@@ -56,11 +56,3 @@ object{pointer-events: none;}
 .fb_edge_widget_with_comment { width:51px !important; }
 /* but make the span that holds the comment box larger */
 span.fb_edge_comment_widget.fb_iframe_widget iframe { width:401px !important;}
-
-.blur {
-  filter:url(#Adobe_OpacityMaskFilter);
-  /* ^ for Firefox */
-  -webkit-filter: blur(10px);
-  /* ^ Webkit browsers */
-  filter: blur(10px);
-}

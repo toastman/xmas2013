@@ -8,7 +8,6 @@
 		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="470.967" y="590.023" width="522.456" height="462.977">
 			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
 			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
-			<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
 		</filter>
 	</defs>
 	<mask maskUnits="userSpaceOnUse" x="470.967" y="590.023" width="522.456" height="462.977" id="SVGID_1_">

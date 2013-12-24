@@ -6,6 +6,7 @@
   snowStorm.useTwinkleEffect = true;
   snowStorm.snowStick = false;
   snowStorm.animationInterval = 50;
+  snowStorm.followMouse = false;
 
 
 //$(function(){

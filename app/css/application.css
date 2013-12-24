@@ -44,8 +44,6 @@ object { pointer-events: none; }
 /* but make the span that holds the comment box larger */
 span.fb_edge_comment_widget.fb_iframe_widget iframe { width: 401px !important; }
 
-.blur { filter: url(#Adobe_OpacityMaskFilter); /* ^ for Firefox */ -webkit-filter: blur(10px); /* ^ Webkit browsers */ filter: blur(10px); }
-
 /* Large desktop */
 @media (min-width: 1200px) { .content-width { width: 960px; }
   .footer { bottom: 4em; } }
