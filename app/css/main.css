@@ -1,0 +1,60 @@
+/*
+Syntax error: Undefined variable: "$color-blue-light".
+        on line 2 of main.scss
+
+1: 
+2: body{ margin:0; background: $color-blue-light; font-size: 16px; font-family: 'Ubuntu', sans-serif; color: $color-blue-text}
+3: 
+4: .social-bubble{
+5:   @extend .pos-abs;
+6:   @extend .text-center;
+7:   top:1em;
+
+Backtrace:
+main.scss:2
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/script/variable.rb:49:in `_perform'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/script/node.rb:40:in `perform'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/tree/root_node.rb:20:in `render'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/exec.rb:424:in `watch_or_update'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/exec.rb:307:in `process_result'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/exec.rb:41:in `parse'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/lib/sass/exec.rb:21:in `parse!'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/gems/sass-3.2.5/bin/scss:8:in `<top (required)>'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/bin/scss:23:in `load'
+/Users/andriivandakurov/.rvm/gems/ruby-2.0.0-p247@global/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$color-blue-light\".\A         on line 2 of main.scss\A \A 1: \A 2: body{ margin:0; background: $color-blue-light; font-size: 16px; font-family: 'Ubuntu', sans-serif; color: $color-blue-text}\A 3: \A 4: .social-bubble{\A 5:   @extend .pos-abs;\A 6:   @extend .text-center;\A 7:   top:1em;"; }
